@@ -19,28 +19,28 @@ public class Main {
         System.out.println("Choose an Operator: Subtraction, Division, Multiplication & Addition.");
         String operator = input3.next();
 
-        int math1 = Integer.parseInt(answer1);
-        int math2 = Integer.parseInt(answer2);
+        double math1 = Double.parseDouble(answer1);
+        double math2 = Double.parseDouble(answer2);
 
         if (operator.equals("Subtraction") || operator.equals("subtraction")) {
-            int math = math1 - math2;
+            double math = math1 - math2;
             System.out.println("Your answer is:");
             System.out.println(math);
 
         }
         if (operator.equals("Division") || operator.equals("division")) {
-            int math = math1 / math2;
+            double math = math1 / math2;
             System.out.println("Your answer is:");
             System.out.println(math);
 
         }
         if (operator.equals("Addition") || operator.equals("addition")) {
-            int math = math1 + math2;
+            double math = math1 + math2;
             System.out.println("Your answer is");
             System.out.println(math);
         }
         if (operator.equals("Multiplication") || operator.equals("multiplication")) {
-            int math = math1 * math2;
+            double math = math1 * math2;
             System.out.println("Your answer is:");
             System.out.println(math);
         }
